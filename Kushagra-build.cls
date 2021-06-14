@@ -78,7 +78,7 @@
 \titlespacing{\section}{0pt}{0pt}{5pt}
 
 % Descriptors command
-\newcommand{\descript}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/Inconsolata/]{Inconsolata-SemiBold}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+\newcommand{\descript}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/Inconsolata/]{Inconsolata-Medium}\fontsize{9pt}{11pt}\selectfont {#1 \\} \normalfont}
 \titlespacing{\section}{0pt}{0pt}{3pt}
 
 % Positions command
