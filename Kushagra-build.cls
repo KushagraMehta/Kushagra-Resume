@@ -100,5 +100,6 @@
 % Ordered Bullet Lists with fewer gaps command
 \newenvironment{tightenumerate}{\vspace{-\topsep}\begin{enumerate}\itemsep1pt \parskip0pt \parsep0pt}{\end{enumerate}\vspace{-\topsep}}
 
+\newcommand{\descriptright}[1]{\color{subheadings}\raggedright\hspace*{0pt}\hfill\fontspec[Path = fonts/Inconsolata/]{Inconsolata-Medium}\fontsize{9pt}{11pt}\selectfont {#1 \\} \normalfont}
 
 
